@@ -1,0 +1,21 @@
+:root {
+  --labels_secondary-inactive-label-text-graphics: #808080;
+  --labels_fields: #f0f1f1;
+}
+
+$info-panel-background: var(--labels_fields);
+$info-panel-text: var(--labels_secondary-inactive-label-text-graphics);
+
+.panel-information-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $info-panel-background;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex: 1;
+}
+
+.panel-information-row-disable {
+  color: $info-panel-text;
+}
