@@ -1,7 +1,7 @@
 {
   "name": "hollaex-web-lib",
-  "version": "0.2.0",
-  "description": "",
+  "version": "0.3.0",
+  "description": "HollaEx Web component library",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "files": [
